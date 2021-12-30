@@ -58,19 +58,31 @@ namespace Hotel1
         /// Загрузка формы
         private void RoleForm_Load(object sender, EventArgs e)
         {
-            roleTableUpdate();
-            userTableUpdate();
-            foodTableUpdate();
-            clientTableUpdate();
-            orderingfoodTableUpdate();
-            postTableUpdate();
-            departamentTableUpdate();
-            employeeTableUpdate();
-            accountingTableUpdate();
-            typeofserviceTableUpdate();
-            chetauslugiTableUpdate();
-            nomeraTableUpdate();
-            broniravanieTableUpdate();
+            if (tabControl2.TabPages.ContainsKey("tabPage7"))
+            {
+                accountingTableUpdate();
+            }
+            else
+                if(tabControl2.TabPages.ContainsKey("tabPage3") ||
+                tabControl2.TabPages.ContainsKey("tabPage4") ||
+                tabControl2.TabPages.ContainsKey("tabPage5") ||
+                tabControl2.TabPages.ContainsKey("tabPage6") ||
+                tabControl2.TabPages.ContainsKey("tabPage8") ||
+                tabControl2.TabPages.ContainsKey("tabPage18"))
+            {
+                roleTableUpdate();
+                userTableUpdate();
+                foodTableUpdate();
+                clientTableUpdate();
+                orderingfoodTableUpdate();
+                postTableUpdate();
+                departamentTableUpdate();
+                employeeTableUpdate();
+                typeofserviceTableUpdate();
+                chetauslugiTableUpdate();
+                nomeraTableUpdate();
+                broniravanieTableUpdate();
+            }             
 
             dataUsers.DataSource = users.Objs;
             comboRole.DataSource = roles.Objs;

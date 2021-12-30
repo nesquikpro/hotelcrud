@@ -455,8 +455,8 @@
             this.файлToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.выходToolStripMenuItem});
             this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-            this.файлToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
-            this.файлToolStripMenuItem.Text = "Файл";
+            this.файлToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.файлToolStripMenuItem.Text = "Меню";
             // 
             // выходToolStripMenuItem
             // 
@@ -476,7 +476,7 @@
             // оПрограммеToolStripMenuItem
             // 
             this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
-            this.оПрограммеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.оПрограммеToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.оПрограммеToolStripMenuItem.Text = "О программе";
             this.оПрограммеToolStripMenuItem.Click += new System.EventHandler(this.оПрограммеToolStripMenuItem_Click);
             // 
@@ -2295,16 +2295,16 @@
             this.comboBox3.Items.AddRange(new object[] {
             "По возрастанию",
             "По обыванию"});
-            this.comboBox3.Location = new System.Drawing.Point(753, 38);
+            this.comboBox3.Location = new System.Drawing.Point(892, 12);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(117, 23);
             this.comboBox3.TabIndex = 60;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(890, 38);
+            this.button2.Location = new System.Drawing.Point(892, 37);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(99, 23);
+            this.button2.Size = new System.Drawing.Size(117, 23);
             this.button2.TabIndex = 59;
             this.button2.Text = "Сортировать";
             this.button2.UseVisualStyleBackColor = true;

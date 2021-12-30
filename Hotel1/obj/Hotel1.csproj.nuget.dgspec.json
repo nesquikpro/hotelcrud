@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualApps\\Hotel1-main\\Hotel1\\Hotel1.csproj": {}
+    "D:\\VisualApps\\Hotel1\\Hotel1\\Hotel1.csproj": {}
   },
   "projects": {
-    "D:\\VisualApps\\Hotel1-main\\Hotel1\\Hotel1.csproj": {
+    "D:\\VisualApps\\Hotel1\\Hotel1\\Hotel1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualApps\\Hotel1-main\\Hotel1\\Hotel1.csproj",
+        "projectUniqueName": "D:\\VisualApps\\Hotel1\\Hotel1\\Hotel1.csproj",
         "projectName": "Hotel1",
-        "projectPath": "D:\\VisualApps\\Hotel1-main\\Hotel1\\Hotel1.csproj",
+        "projectPath": "D:\\VisualApps\\Hotel1\\Hotel1\\Hotel1.csproj",
         "packagesPath": "C:\\Users\\inkno\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualApps\\Hotel1-main\\Hotel1\\obj\\",
+        "outputPath": "D:\\VisualApps\\Hotel1\\Hotel1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

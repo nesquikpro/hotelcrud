@@ -28,6 +28,7 @@ namespace Hotel1
 
         private async void btnVxod_Click(object sender, EventArgs e)
         {
+            MainForm mainform = new MainForm();
             var pass = GetHash(passBox.Text);
 
             if (users.Objs.Any(user => user.Login == loginBox.Text && user.Password == pass))
@@ -36,21 +37,28 @@ namespace Hotel1
                 switch ((await new Role { Id = (int)user.RoleId }.Get()).Name)
                 {
                     case "Администратор":
-                        MainForm mainform = new MainForm();
                         this.Hide();
-                        mainform.Show();
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage7");
+                        mainform.Show();                    
                         break;
                     case "Бухгалтер":
-                        MainForm mainform2 = new MainForm();
                         this.Hide();
-                        mainform2.Show();
-                        mainform2.tabControl1.Visible = false;
-                        mainform2.tabControl3.Visible = false;
-                        mainform2.tabControl7.Visible = false;
-                        mainform2.tabControl8.Visible = false;
-                        mainform2.tabControl5.Visible = false;
-                        mainform2.tabControl4.Visible = false;
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage6");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage3");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage4");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage8");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage18");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage5");
+                        mainform.Show();
+                        mainform.tabControl1.Visible = false;
+                        mainform.tabControl3.Visible = false;
+                        mainform.tabControl7.Visible = false;
+                        mainform.tabControl8.Visible = false;
+                        mainform.tabControl5.Visible = false;
+                        mainform.tabControl4.Visible = false;
+                        mainform.Show();
                         break;
+
                     default:
                         return;
                 }
