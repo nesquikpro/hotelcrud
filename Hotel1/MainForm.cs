@@ -62,12 +62,12 @@ namespace Hotel1
             {
                 accountingTableUpdate();
             }
-            else
-                if(tabControl2.TabPages.ContainsKey("tabPage3") ||
+            else if (tabControl2.TabPages.ContainsKey("tabPage3") ||
                 tabControl2.TabPages.ContainsKey("tabPage4") ||
                 tabControl2.TabPages.ContainsKey("tabPage5") ||
                 tabControl2.TabPages.ContainsKey("tabPage6") ||
                 tabControl2.TabPages.ContainsKey("tabPage8") ||
+                tabControl2.TabPages.ContainsKey("tabPage7") ||
                 tabControl2.TabPages.ContainsKey("tabPage18"))
             {
                 roleTableUpdate();
@@ -76,15 +76,20 @@ namespace Hotel1
                 clientTableUpdate();
                 orderingfoodTableUpdate();
                 postTableUpdate();
+                accountingTableUpdate();
                 departamentTableUpdate();
                 employeeTableUpdate();
                 typeofserviceTableUpdate();
                 chetauslugiTableUpdate();
                 nomeraTableUpdate();
                 broniravanieTableUpdate();
-            }             
+            }
+            else if (tabControl2.TabPages.ContainsKey(""))
+            {
 
-            dataUsers.DataSource = users.Objs;
+            }
+
+                dataUsers.DataSource = users.Objs;
             comboRole.DataSource = roles.Objs;
             comboRole.DisplayMember = "Name";
             comboRole.ValueMember = "Id";

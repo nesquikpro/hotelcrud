@@ -50,12 +50,32 @@ namespace Hotel1
                         mainform.tabControl2.TabPages.RemoveByKey("tabPage18");
                         mainform.tabControl2.TabPages.RemoveByKey("tabPage5");
                         mainform.Show();
-                        mainform.tabControl1.Visible = false;
-                        mainform.tabControl3.Visible = false;
-                        mainform.tabControl7.Visible = false;
-                        mainform.tabControl8.Visible = false;
-                        mainform.tabControl5.Visible = false;
-                        mainform.tabControl4.Visible = false;
+                        break;
+                    case "Кадровик":
+                        this.Hide();
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage6");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage3");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage8");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage18");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage5");
+                        mainform.Show();
+                        break;
+                    case "Шеф-повар":
+                        this.Hide();
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage6");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage3");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage4");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage8");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage18");
+                        mainform.Show();
+                        break;
+                    case "Менеджер бронирования":
+                        this.Hide();
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage6");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage3");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage4");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage8");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage5");
                         mainform.Show();
                         break;
 
