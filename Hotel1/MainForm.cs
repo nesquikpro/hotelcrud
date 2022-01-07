@@ -62,13 +62,31 @@ namespace Hotel1
             {
                 accountingTableUpdate();
             }
-            else if (tabControl2.TabPages.ContainsKey("tabPage3") ||
-                tabControl2.TabPages.ContainsKey("tabPage4") ||
-                tabControl2.TabPages.ContainsKey("tabPage5") ||
-                tabControl2.TabPages.ContainsKey("tabPage6") ||
-                tabControl2.TabPages.ContainsKey("tabPage8") ||
-                tabControl2.TabPages.ContainsKey("tabPage7") ||
-                tabControl2.TabPages.ContainsKey("tabPage18"))
+
+            if (tabControl2.TabPages.ContainsKey("tabPage4"))
+            {
+                departamentTableUpdate();
+                postTableUpdate();
+                employeeTableUpdate();
+            }
+            if (tabControl2.TabPages.ContainsKey("tabPage5"))
+            {
+                foodTableUpdate();
+                orderingfoodTableUpdate();
+            }
+            if (tabControl2.TabPages.ContainsKey("tabPage18"))
+            {
+                nomeraTableUpdate();
+                broniravanieTableUpdate();
+            }
+
+            if (tabControl2.TabPages.ContainsKey("tabPage3") &&
+               tabControl2.TabPages.ContainsKey("tabPage4") &&
+               tabControl2.TabPages.ContainsKey("tabPage5") &&
+               tabControl2.TabPages.ContainsKey("tabPage6") &&
+               tabControl2.TabPages.ContainsKey("tabPage8") &&
+               tabControl2.TabPages.ContainsKey("tabPage7") &&
+               tabControl2.TabPages.ContainsKey("tabPage18"))
             {
                 roleTableUpdate();
                 userTableUpdate();
@@ -84,12 +102,8 @@ namespace Hotel1
                 nomeraTableUpdate();
                 broniravanieTableUpdate();
             }
-            else if (tabControl2.TabPages.ContainsKey(""))
-            {
 
-            }
-
-                dataUsers.DataSource = users.Objs;
+            dataUsers.DataSource = users.Objs;
             comboRole.DataSource = roles.Objs;
             comboRole.DisplayMember = "Name";
             comboRole.ValueMember = "Id";
@@ -393,8 +407,7 @@ namespace Hotel1
             dataZakaz.Columns[0].Visible = false;
             dataZakaz.Columns[1].HeaderText = "Название меню";
             dataZakaz.Columns[2].HeaderText = "Клиент";
-
-
+            dataZakaz.Columns[3].Visible = false;
         }
 
         private async void addZakaz_Click(object sender, EventArgs e)

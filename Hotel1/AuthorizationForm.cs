@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Hotel1
@@ -38,7 +33,6 @@ namespace Hotel1
                 {
                     case "Администратор":
                         this.Hide();
-                        mainform.tabControl2.TabPages.RemoveByKey("tabPage7");
                         mainform.Show();                    
                         break;
                     case "Бухгалтер":
@@ -57,15 +51,17 @@ namespace Hotel1
                         mainform.tabControl2.TabPages.RemoveByKey("tabPage3");
                         mainform.tabControl2.TabPages.RemoveByKey("tabPage8");
                         mainform.tabControl2.TabPages.RemoveByKey("tabPage18");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage7");
                         mainform.tabControl2.TabPages.RemoveByKey("tabPage5");
                         mainform.Show();
                         break;
-                    case "Шеф-повар":
+                    case "Шев-повар":
                         this.Hide();
                         mainform.tabControl2.TabPages.RemoveByKey("tabPage6");
                         mainform.tabControl2.TabPages.RemoveByKey("tabPage3");
                         mainform.tabControl2.TabPages.RemoveByKey("tabPage4");
                         mainform.tabControl2.TabPages.RemoveByKey("tabPage8");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage7");
                         mainform.tabControl2.TabPages.RemoveByKey("tabPage18");
                         mainform.Show();
                         break;
@@ -75,6 +71,7 @@ namespace Hotel1
                         mainform.tabControl2.TabPages.RemoveByKey("tabPage3");
                         mainform.tabControl2.TabPages.RemoveByKey("tabPage4");
                         mainform.tabControl2.TabPages.RemoveByKey("tabPage8");
+                        mainform.tabControl2.TabPages.RemoveByKey("tabPage7");
                         mainform.tabControl2.TabPages.RemoveByKey("tabPage5");
                         mainform.Show();
                         break;

@@ -461,7 +461,7 @@
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
@@ -710,7 +710,7 @@
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(1223, 603);
             this.tabPage3.TabIndex = 0;
-            this.tabPage3.Text = "ИС";
+            this.tabPage3.Text = "Программа";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // tabPage5
@@ -923,7 +923,7 @@
             this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage10.Size = new System.Drawing.Size(1209, 564);
             this.tabPage10.TabIndex = 1;
-            this.tabPage10.Text = "Заказ";
+            this.tabPage10.Text = "Заказы";
             this.tabPage10.UseVisualStyleBackColor = true;
             // 
             // comboMenu
@@ -2503,7 +2503,7 @@
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Size = new System.Drawing.Size(1223, 603);
             this.tabPage8.TabIndex = 5;
-            this.tabPage8.Text = "Клиенты";
+            this.tabPage8.Text = "Клиентская база";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
             // tabControl7
@@ -2844,7 +2844,7 @@
             this.tabPage18.Name = "tabPage18";
             this.tabPage18.Size = new System.Drawing.Size(1223, 603);
             this.tabPage18.TabIndex = 6;
-            this.tabPage18.Text = "Брони";
+            this.tabPage18.Text = "Номера и бронирование";
             this.tabPage18.UseVisualStyleBackColor = true;
             // 
             // tabControl8
