@@ -2,6 +2,8 @@
 using iTextSharp.text.pdf;
 using Maroquio;
 using System;
+using System.Configuration;
+using System.Data;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
@@ -193,10 +195,9 @@ namespace Hotel1
 
         private void выходToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MenuForm menu = new MenuForm();
             this.Hide();
-            menu.ShowDialog();
-            this.Show();
+            AuthorizationForm auth = new AuthorizationForm();
+            auth.Show();
         }
 
         private void userTableUpdate()
@@ -2086,6 +2087,7 @@ namespace Hotel1
    MessageBoxDefaultButton.Button2,
    MessageBoxOptions.DefaultDesktopOnly);
         }
+   
     }
 
 }

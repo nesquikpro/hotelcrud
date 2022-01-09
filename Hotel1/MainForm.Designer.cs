@@ -384,7 +384,7 @@
             this.dataRole.ReadOnly = true;
             this.dataRole.RowTemplate.Height = 25;
             this.dataRole.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataRole.Size = new System.Drawing.Size(1203, 518);
+            this.dataRole.Size = new System.Drawing.Size(1200, 518);
             this.dataRole.TabIndex = 0;
             this.dataRole.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataRole_CellClick);
             // 
@@ -2327,7 +2327,7 @@
             this.dataBuh.ReadOnly = true;
             this.dataBuh.RowTemplate.Height = 25;
             this.dataBuh.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataBuh.Size = new System.Drawing.Size(1200, 493);
+            this.dataBuh.Size = new System.Drawing.Size(1197, 493);
             this.dataBuh.TabIndex = 58;
             this.dataBuh.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataBuh_CellClick_1);
             // 

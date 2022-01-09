@@ -19,8 +19,6 @@ D:\VisualApps\Hotel1\Hotel1\obj\Debug\net5.0-windows\Hotel1.pdb
 D:\VisualApps\Hotel1\Hotel1\obj\Debug\net5.0-windows\Hotel1.genruntimeconfig.cache
 D:\VisualApps\Hotel1\Hotel1\obj\Debug\net5.0-windows\Hotel1.MainForm.resources
 D:\VisualApps\Hotel1\Hotel1\obj\Debug\net5.0-windows\Hotel1.Properties.Resources.resources
-D:\VisualApps\Hotel1\Hotel1\obj\Debug\net5.0-windows\Hotel1.MenuForm.resources
-D:\VisualApps\Hotel1\Hotel1\obj\Debug\net5.0-windows\Hotel1.csproj.AssemblyReference.cache
 D:\VisualApps\Hotel1\Hotel1\obj\Debug\net5.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
 D:\VisualApps\Hotel1\Hotel1\obj\Debug\net5.0-windows\Interop.Microsoft.Office.Interop.Word.dll
 D:\VisualApps\Hotel1\Hotel1\obj\Debug\net5.0-windows\Hotel1.csproj.ResolveComReference.cache
