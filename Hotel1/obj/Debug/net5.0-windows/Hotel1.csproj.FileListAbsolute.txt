@@ -54,3 +54,4 @@ D:\VisualApps\Hotel1-main\Hotel1\obj\Debug\net5.0-windows\Hotel1.dll
 D:\VisualApps\Hotel1-main\Hotel1\obj\Debug\net5.0-windows\ref\Hotel1.dll
 D:\VisualApps\Hotel1-main\Hotel1\obj\Debug\net5.0-windows\Hotel1.pdb
 D:\VisualApps\Hotel1-main\Hotel1\obj\Debug\net5.0-windows\Hotel1.genruntimeconfig.cache
+D:\VisualApps\Hotel1\Hotel1\obj\Debug\net5.0-windows\Hotel1.csproj.AssemblyReference.cache
