@@ -1,7 +1,4 @@
-## Информационная база для гостиницы
-
-## Логическая модель данных
-<img width="1019" height="430" alt="image" src="https://github.com/user-attachments/assets/b6a30f72-f36c-48c0-9b4f-44aff2919158" />
+## ИБ "Гостиница"
 
 ## Физическая модель данных
 <img width="1026" height="387" alt="image" src="https://github.com/user-attachments/assets/fcd814ad-7201-47d8-9fd0-93533e039290" />
